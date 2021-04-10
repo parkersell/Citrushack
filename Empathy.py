@@ -28,8 +28,8 @@ def getConversations():
         s2id = convo["speaker_idx"].unique()[1]
         s1 = convo.loc[convo["speaker_idx"] == s1id]
         s2 = convo.loc[convo["speaker_idx"] == s2id]
-        s1words = s1["utterance"].values.tolist()
-        s2words = s2["utterance"].values.tolist()
+        s1words = [s.replace("_comma_", ",") for s in s1["utterance"].values.tolist()]
+        s2words = [s.replace("_comma_", ",") for s in s2["utterance"].values.tolist()]
         context = convo["context"].str.extract('(\w+)').values[0].item()
         escore = int(convo["empathy"].values[0])
         lsconv.append([context, s1words, s2words, escore])
