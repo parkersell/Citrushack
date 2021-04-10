@@ -1,62 +1,62 @@
 >>> testing()
 sys:1: DtypeWarning: Columns (1,4,8,9) have mixed types.Specify dtype option on import or set low_memory=False.
-['confident', ["I din't do well in Biology last semester. I am ready for this one though", 'Biology of Cells. IT was so confusing.', 'College course are so much more detailed than high school. I did pass but barely.', "Cool. I'm way better at math, but I'm gonna try to at least get a B this sester because I need the class."], ['I am sure you will do great. What kind of biology is it?', 'You just need to know that the mitochondria is the powerhouse.', "Yeah I could never do bio it was too much memorization. I like physics more which is why I'm in engineering.", 'what type of math is it?'], 4]
-{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.14, 'Sad': 0.25, 'Fear': 0.37}
-{'Happy': 0.4, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.0, 'Fear': 0.6}
-Sentiment(classification='pos', p_pos=0.7781143096718215, p_neg=0.22188569032818195)
-Sentiment(classification='neg', p_pos=0.011879221782453656, p_neg=0.9881207782175451)
-0.3968626966596886
-['prepared', ["It's back to school time. I am a teacher and I spent time getting my classroom ready today.", "I teach high school cooking! It's a lot of fun! ", "Yeah, we eat almost everything we make. It's a great practical class. ", 'We do everything from baking to pasta, starches, meat and poultry...we run a little mock restaurant for other teachers. '], ["That's got to be exciting!  [And as a parent, I salute you!]  What grade do you teach?", 'Oh, wow!  That does sound fun!  Just for the idea of eating in class every once in a while!', 'What sorts of things do the kids learn how to make?', 'I wish they had that when I was in school in 199*coughcough*  :)'], 5]
-{'Happy': 0.23, 'Angry': 0.0, 'Surprise': 0.15, 'Sad': 0.38, 'Fear': 0.23}
-{'Happy': 0.2, 'Angry': 0.0, 'Surprise': 0.3, 'Sad': 0.3, 'Fear': 0.2}
-Sentiment(classification='pos', p_pos=0.9846873641930672, p_neg=0.015312635806929974)
-Sentiment(classification='pos', p_pos=0.5960256682998734, p_neg=0.4039743317001308)
-0.17521415467935234
+['anticipating', ['When my wife and I got married, we knew we wanted to have kids.  When we found out that we were expecting, the only thing on our mind for the longest time was if we were having a boy or a girl.', 'We did! We were living in Japan at the time, and we were paying this clinic 2000 yen a week so we could keep getting ultrasounds of the baby.', 'At the time, the exchange rate was about 110 yen to the dollar, so it was pretty affordable, and worth it to keep going back.', "I wouldn't be able to tell you, since I wasn't under their healthcare system.  This was just a women's clinic that offered this service pretty cheaply."], ['What exciting news! Did you find out ahead of time what the gender of the baby was?', 'What is 2000 yen equal to in U.S. currency?', 'It sure sounds like it. I think healthcare in Japan is much more affordable that here in America, do you agree?', "Oh, okay, well I watched a documentary about healthcare in other countries. I understand that doesn't apply here."], 4]
+When my wife and I got married, we knew we wanted to have kids.  When we found out that we were expecting, the only thing on our mind for the longest time was if we were having a boy or a girl. We did! We were living in Japan at the time, and we were paying this clinic 2000 yen a week so we could keep getting ultrasounds of the baby. At the time, the exchange rate was about 110 yen to the dollar, so it was pretty affordable, and worth it to keep going back. I wouldn't be able to tell you, since I wasn't under their healthcare system.  This was just a women's clinic that offered this service pretty cheaply.
+What exciting news! Did you find out ahead of time what the gender of the baby was? What is 2000 yen equal to in U.S. currency? It sure sounds like it. I think healthcare in Japan is much more affordable that here in America, do you agree? Oh, okay, well I watched a documentary about healthcare in other countries. I understand that doesn't apply here.
+{'Happy': 0.27, 'Angry': 0.0, 'Surprise': 0.2, 'Sad': 0.07, 'Fear': 0.47}
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.4, 'Sad': 0.2, 'Fear': 0.4}
+0.3670149860700514
+['confident', ['I just lost some weight so I ordered a bunch of dresses online', "I think I'll be able to fit them all too.", 'I am', 'Size 7'], ["Thats great!  It's awesome you are doing things for yourself.", 'That really is good news you should be feeling proud.', 'So whats next.. for your goals?', 'Oooh you will probably get there in no time.'], 5]
+I just lost some weight so I ordered a bunch of dresses online I think I'll be able to fit them all too. I am Size 7
+Thats great!  It's awesome you are doing things for yourself. That really is good news you should be feeling proud. So whats next.. for your goals? Oooh you will probably get there in no time.
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.5, 'Fear': 0.0}
+{'Happy': 0.43, 'Angry': 0.0, 'Surprise': 0.43, 'Sad': 0.0, 'Fear': 0.14}
+0.5782732917920383
+['grateful', ["I've been doing great in school so far.", 'Three years. I had a rough start trying to work and study.', "I wish. I've been passing all of my classes though so. One step at a time.", 'Criminology'], ['How long have you been in school?', "That's so great to hear. Are you going to graduate with honors?", 'What are you going to school for?', 'Do you want to be a lawyer or joing the police?'], 4]
+I've been doing great in school so far. Three years. I had a rough start trying to work and study. I wish. I've been passing all of my classes though so. One step at a time. Criminology
+How long have you been in school? That's so great to hear. Are you going to graduate with honors? What are you going to school for? Do you want to be a lawyer or joing the police?
+{'Happy': 0.17, 'Angry': 0.0, 'Surprise': 0.17, 'Sad': 0.33, 'Fear': 0.33}
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.0, 'Fear': 0.75}
+0.5662155066756827
+['anxious', ['I just love halloween. This is going to be the best one yet.', 'I I do themes with me and my kids. We were all comic book villains last year', 'Im thinking fast food. Burgers, fries, milkshake lol', 'Some parts.'], ['You sound excited? do you do it up big?', 'What are you going to do this year?', "That's an interesting theme.  Are you going to make the costumes your self?", 'That sounds like lots of fun!  '], 5]
+I just love halloween. This is going to be the best one yet. I I do themes with me and my kids. We were all comic book villains last year Im thinking fast food. Burgers, fries, milkshake lol Some parts.
+You sound excited? do you do it up big? What are you going to do this year? That's an interesting theme.  Are you going to make the costumes your self? That sounds like lots of fun!
+{'Happy': 0.4, 'Angry': 0.0, 'Surprise': 0.4, 'Sad': 0.0, 'Fear': 0.2}
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.38, 'Fear': 0.38}
+0.5994163828258284
+['annoyed', ['i was studing for a test yesterday and really trying to concentrate', 'yea , but my girlfriend was beside be and she was flicking her fingers and nails up and down over and over against the wooden table we were at.  can you imagine this when I need perfect silence for studying', 'Exactly but i acrd the test ant way . but i can still hear those finger nails click, click, click , click', "I was and i passed the test and I'm looking for a new girlfriend"], ['How did that go? Studying is very important in order to do good. ', 'How annoying that could be. She could have alittle more respect for you. ', 'How frustrating! I hope you were able to study just a little though.  ', 'Im sorry man! stay optimistic! dont be sad about it. '], 5]
+i was studing for a test yesterday and really trying to concentrate yea , but my girlfriend was beside be and she was flicking her fingers and nails up and down over and over against the wooden table we were at.  can you imagine this when I need perfect silence for studying Exactly but i acrd the test ant way . but i can still hear those finger nails click, click, click , click I was and i passed the test and I'm looking for a new girlfriend
+How did that go? Studying is very important in order to do good.  How annoying that could be. She could have alittle more respect for you.  How frustrating! I hope you were able to study just a little though.   Im sorry man! stay optimistic! dont be sad about it.
+{'Happy': 0.0, 'Angry': 0.14, 'Surprise': 0.43, 'Sad': 0.14, 'Fear': 0.29}
+{'Happy': 0.3, 'Angry': 0.2, 'Surprise': 0.0, 'Sad': 0.4, 'Fear': 0.1}
+0.6182232606429493
+['lonely', ['I miss living in the city.', 'Not really. Further outside of the city though. The neighborhood was getting rough.', 'Plus I have kids', 'I think you mean safe'], ['Did you move to the country?', 'Well you have to be safe', 'Then you definitely have to be dafe', 'Of course lol'], 5]
+I miss living in the city. Not really. Further outside of the city though. The neighborhood was getting rough. Plus I have kids I think you mean safe
+Did you move to the country? Well you have to be safe Then you definitely have to be dafe Of course lol
+{'Happy': 0.17, 'Angry': 0.0, 'Surprise': 0.33, 'Sad': 0.5, 'Fear': 0.0}
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.0, 'Fear': 1.0}
+1.1780492349643117
+['ashamed', ["I tell my mother all of my secrets and I know she wouldn't tell anyone.", 'Yeah, I know! I have friends that are great but my mom seems to be the one person I can count on.', "Me too. She's a great example.", "Totally. I'm so grateful to have her. "], ["You're lucky to have her! It's hard to find someone to trust. ", "Aw, I'm sure you tell her. I hope to be that kind of mom when my kids are adults. ", "Aww, I'm sure that's been nothing but positive for you. ", 'Moms. They are the best. '], 5]
+I tell my mother all of my secrets and I know she wouldn't tell anyone. Yeah, I know! I have friends that are great but my mom seems to be the one person I can count on. Me too. She's a great example. Totally. I'm so grateful to have her.
+You're lucky to have her! It's hard to find someone to trust.  Aw, I'm sure you tell her. I hope to be that kind of mom when my kids are adults.  Aww, I'm sure that's been nothing but positive for you.  Moms. They are the best.
+{'Happy': 0.4, 'Angry': 0.0, 'Surprise': 0.1, 'Sad': 0.3, 'Fear': 0.2}
+{'Happy': 0.3, 'Angry': 0.1, 'Surprise': 0.1, 'Sad': 0.1, 'Fear': 0.4}
+0.31622776601683794
+['faithful', ['my friend told me a secret', 'yes, i did keep it. im holding it for a couple more days.', 'lol, its one of the them ', 'lol.. i will this weekend. i never hold secrets. im doing a great job'], ['Was it a good one? Did you keep it?', 'Is someone getting married, or a baby?', "Well tell them I said Congrats on whatever it is. As long as it's not a baby marriage.", 'Keep it secret, Keep it safe....'], 5]
+my friend told me a secret yes, i did keep it. im holding it for a couple more days. lol, its one of the them  lol.. i will this weekend. i never hold secrets. im doing a great job
+Was it a good one? Did you keep it? Is someone getting married, or a baby? Well tell them I said Congrats on whatever it is. As long as it's not a baby marriage. Keep it secret, Keep it safe....
+{'Happy': 0.38, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.12}
+{'Happy': 0.2, 'Angry': 0.0, 'Surprise': 0.4, 'Sad': 0.2, 'Fear': 0.2}
+0.2525866188063018
 ['jealous', ['My friend got a huge scholarship when he barely passed the PSAT.', 'Its mainly an English based test and hes really good at english', 'Yea he was about 1 point above the cutoff, I was quite jealous of him to be honest, I barely didnt make it sadly.', 'OU, he ended up dropping out to pursue writing about a year and a half in and wasted the scholarship.'], ['How did  he manage to do that?', 'I mean you said he barely passed it though. Must have been slim pickings when it came to giving out the sholarships.', 'What college did he end up going to?', 'Ah, yes, the lucrative writing career.'], 4]
+My friend got a huge scholarship when he barely passed the PSAT. Its mainly an English based test and hes really good at english Yea he was about 1 point above the cutoff, I was quite jealous of him to be honest, I barely didnt make it sadly. OU, he ended up dropping out to pursue writing about a year and a half in and wasted the scholarship.
+How did  he manage to do that? I mean you said he barely passed it though. Must have been slim pickings when it came to giving out the sholarships. What college did he end up going to? Ah, yes, the lucrative writing career.
 {'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.25}
 {'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.22, 'Sad': 0.33, 'Fear': 0.44}
-Sentiment(classification='neg', p_pos=0.028889345442261002, p_neg=0.9711106545577365)
-Sentiment(classification='neg', p_pos=0.3817086719039788, p_neg=0.6182913280960203)
 0.3254228019054596
-['furious', ['Someone stole my trash can.', "The city will literally give you one for free.  I don't even get it.  ", 'Yep.  The lack of integrity of some people is shocking.', 'A little pain goes a long way.'], ['Why on earth would someone do that? A totally pointless act!', 'Some people will steal anything, I guess. A store employee once told me they had to keep certain things by the checkout or they walked!', 'It sure is! I got caught (when I was about 8) bouncing a ping pong ball while leaving a toy store. The owner took me home and my Dad gave me a hiding. Never again!', 'Oh yes. While other teenagers were thieving I was being a very good little girl! Hope you get a replacement for your trash can.'], 4]
-{'Happy': 0.14, 'Angry': 0.14, 'Surprise': 0.29, 'Sad': 0.0, 'Fear': 0.43}
-{'Happy': 0.06, 'Angry': 0.12, 'Surprise': 0.35, 'Sad': 0.18, 'Fear': 0.29}
-Sentiment(classification='pos', p_pos=0.9102683299492655, p_neg=0.08973167005073729)
-Sentiment(classification='neg', p_pos=0.1147038438596754, p_neg=0.885296156140326)
-0.24979991993593595
-['afraid', ['I have an irrational fear of flying which I faced when I traveled 8 hours on a plane by myself ', 'I was flying from Florida to Italy. I was terrified on the flight, but the destination was worth it.', 'Yeah, it was. It was also my second time flying in general!', 'I was still a little scared, but after take off, I loosened up a little. I watched my favorite series downloaded on my phone and that seemed to distract me well.'], ["Good for you! I'm glad you were able to face it by yourself. Where were you flying?", 'Cool! Was that your first time flying by yourself?', "Wow, that's amazing! Did you enjoy the flight back or were you still scared?", 'Nice what show?'], 4]
-{'Happy': 0.12, 'Angry': 0.12, 'Surprise': 0.12, 'Sad': 0.5, 'Fear': 0.12}
-{'Happy': 0.56, 'Angry': 0.0, 'Surprise': 0.33, 'Sad': 0.11, 'Fear': 0.0}
-Sentiment(classification='pos', p_pos=0.993044520214999, p_neg=0.006955479785009784)
-Sentiment(classification='pos', p_pos=0.8285629846377189, p_neg=0.1714370153622775)
-0.6469930447848725
-['trusting', ["I was scared at first because the water looked cold and the pool was deep.  When I saw my Dad's face however, I knew he would catch me so I jumped in the water.", 'It was a little cold, but it was not as bad as I expected.', 'He did.  He was always there for me as a kid so I knew I could trust him.', 'They are!'], ['So... was it cold?', "I'm so glad your dad was there to help you. Did he catch you?", "That's awesome! Dad's are the best!!", 'How  deep was the pool?'], 4]
-{'Happy': 0.13, 'Angry': 0.0, 'Surprise': 0.33, 'Sad': 0.33, 'Fear': 0.2}
-{'Happy': 0.17, 'Angry': 0.0, 'Surprise': 0.67, 'Sad': 0.0, 'Fear': 0.17}
-Sentiment(classification='neg', p_pos=0.06218712973779302, p_neg=0.9378128702622064)
-Sentiment(classification='pos', p_pos=0.7379399624391558, p_neg=0.2620600375608459)
-0.47644516998286385
-['prepared', ["I got promoted to a line cook and it couldn't have gone smoother.", "It's a Mexican restaurant but they also serve fast food type stuff there too.  It's' a very complex menu, it's a lot to prepare.", "I've had some time to observe how the folks in the kitchen cook and prep. Also there was a new manager and she allowed me to start helping more.", 'Thanks. I have had a very strict manager before and she seemed a little stiff and reluctant to let me do anything but prep food and not cook. It was frustrating, just watching but also being paid and feel like i was cheating them.'], ["Congratulations! That's a very good job. What kind of food do you prepare?", 'Well they must think a lot of your abilities to promote you like that. I love Mexican food, btw :)', 'I love it when managers actually pay attention. Makes the job so much easier and more pleasant. Good for you.', "No, it wasn't you, obviously. Your previous manager sounds like a control freak!"], 5]
-{'Happy': 0.0, 'Angry': 0.15, 'Surprise': 0.23, 'Sad': 0.31, 'Fear': 0.31}
-{'Happy': 0.5, 'Angry': 0.0, 'Surprise': 0.17, 'Sad': 0.17, 'Fear': 0.17}
-Sentiment(classification='neg', p_pos=0.12677199883898124, p_neg=0.8732280011610124)
-Sentiment(classification='pos', p_pos=0.5028488581101271, p_neg=0.49715114188987086)
-0.5615158056546583
-['disappointed', ["I can't believe they cut me from that team.", "The local baseball team, I did my tryouts and it didn't go well!", 'Agreed the hot dogs are delicious.', 'I will do my best and for sure will.'], ['What What???  What team?  Who cut you?', 'I love baseball.  The have better snacks than every other sport.', 'I am sorry bout you being cut though.  Keep on training..', 'We get old.. we get injured.. we eat hotdogs.'], 5]
-{'Happy': 0.0, 'Angry': 0.25, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.25}
-{'Happy': 0.16, 'Angry': 0.0, 'Surprise': 0.16, 'Sad': 0.49, 'Fear': 0.18}
-Sentiment(classification='pos', p_pos=0.8706702921960163, p_neg=0.1293297078039818)
-Sentiment(classification='neg', p_pos=0.30694987017762754, p_neg=0.6930501298223753)
-0.39837168574084175
-['annoyed', ['5', "Sorry about that, my kids are fighting over the computer and hit some buttons lol they're driving me crazy! I'm so ready for school to start back!", "I still have another week, they ask for snack every 5 minutes and they're eating me out of house and home!", 'I hope so, I love them more than life itself but Mama needs a break and the chirren need school!'], ['huh?', 'Me too. I have one more day', 'I think you will make it', 'I know the feeling'], 5]
-{'Happy': 0.21, 'Angry': 0.07, 'Surprise': 0.07, 'Sad': 0.21, 'Fear': 0.43}
-{'Happy': 0.32, 'Angry': 0.0, 'Surprise': 0.35, 'Sad': 0.32, 'Fear': 0.0}
-Sentiment(classification='neg', p_pos=0.033450642287839984, p_neg=0.9665493577121612)
-Sentiment(classification='neg', p_pos=0.24737192962296045, p_neg=0.7526280703770389)
-0.5407402333838309
-['disgusted', ['My food order today did not turn out as well as I had hoped.', "Everything was cold. We had burgers and fries. You can't eat cold fries.", 'Nope. I was starving so I ate it lol', 'Well it was a delivery do we would have had to wait another hour. I did complain though'], ['Sorry to hear!  What all did you order?  And what was wrong with it?', 'Cold fries are the *worst* b/c the potatoes are just gross at that point.  Did you get your money back, at least?', "Oh bless your heart!  I'm sorry to hear!  I'd have returned it and gotten the whole meal free for the cold messed up fries!", "That's good! Hopefully you'll be compensated in some way for the fries.  Ugh, cold fries!  You're way nicer about it than I would have been."], 5]
-{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.44, 'Sad': 0.23, 'Fear': 0.33}
-{'Happy': 0.2, 'Angry': 0.07, 'Surprise': 0.26, 'Sad': 0.34, 'Fear': 0.13}
-Sentiment(classification='neg', p_pos=0.45385710776947796, p_neg=0.5461428922305258)
-Sentiment(classification='neg', p_pos=0.0010774797171323068, p_neg=0.9989225202828732)
-0.359722114972099
+['proud', ['I won first place in a chili cooking competition at work today.', 'A $50  gift card and bragging rights.', 'About 15.', "I'll probably give it a try. They do little events like this a few times a year."], ['Did you get a nice prize for it?', "That's amazing, how many people entered?", 'Huge win, do you plan on entering again next year?', "Maybe if there's a hot dog one I can enter it too."], 5]
+I won first place in a chili cooking competition at work today. A $50  gift card and bragging rights. About 15. I'll probably give it a try. They do little events like this a few times a year.
+Did you get a nice prize for it? That's amazing, how many people entered? Huge win, do you plan on entering again next year? Maybe if there's a hot dog one I can enter it too.
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.17, 'Sad': 0.0, 'Fear': 0.83}
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.25}
+0.6839590631024638

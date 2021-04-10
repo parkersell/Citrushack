@@ -15,7 +15,7 @@ def empathy(prompt, response):
     responseEmotions = te.get_emotion(response).values()
 
     # Calculates the distance between the emotion vectors.
-    return (sum(pow(float(a)-float(b),2) for a, b in zip(promptEmotions, responseEmotions))) ** (1/2)
+    return 5 - ((sum(pow(float(a)-float(b),2) for a, b in zip(promptEmotions, responseEmotions)) / 2) ** (1/2)) * 4
 
 def getConversations():
     train = pd.read_csv("train.csv")
@@ -24,7 +24,7 @@ def getConversations():
     train["empathy"] = selfeval.str.extract('\d\|\d\|\d_(\d)\|\d\|\d')
     train = train.dropna()
     conversations = train["conv_id"].value_counts()
-    conversations = conversations.iloc[:10]
+    conversations = conversations.iloc[:100]
     lsconv = []
     for ids in conversations.index:
         convo = train.loc[train["conv_id"] == ids]
@@ -37,13 +37,16 @@ def getConversations():
         s2words = [s.replace("_comma_", ",") for s in s2["utterance"].values.tolist()]
         context = convo["context"].str.extract('(\w+)').values[0].item()
         escore = int(convo["empathy"].values[0])
-        lsconv.append([context, s1words, s2words, escore])
+        prompt = [convo["prompt"].unique()[0]]
+        lsconv.append([context, prompt + s1words, s2words, escore])
     return lsconv
 
 def testing():
     conversations = getConversations()
     for conversation in conversations:
-        print(conversation)
-        person1 = " ".join(conversation[1]) * 10
-        person2 = " ".join(conversation[2]) * 10
+        person1 = " ".join(conversation[1])
+        person2 = " ".join(conversation[2])
+        #print(person2)
+        #print("Prompt Length: " + str(len(person1)))
+        #print("Response Length: " + str(len(person2)))
         print(empathy(person1, person2))

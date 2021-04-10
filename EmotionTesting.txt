@@ -1,0 +1,22 @@
+>>> testing()
+sys:1: DtypeWarning: Columns (1,4,8,9) have mixed types.Specify dtype option on import or set low_memory=False.
+Did you get the spicy kind They sell them in mild too! I prefer mild wings. Did you order them fromore a pizza place? Oh that's cool they deliver.
+{'Happy': 0.6, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.0, 'Fear': 0.4}
+What happened? Sounds a bit scary.  What did you do? Oh my goodness I would have been terrified! Thankfully he walked on past you but what a horrible experience all round.
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.25, 'Fear': 0.75}
+Wow, that's... odd.  Was it for a cake? Hahaha Sorry I just assumed you were 5 years old or something.  Yeah getting practical gifts is more appealing as one gets older. What kind of things did you get? These days that is a great gift, am I right?
+{'Happy': 0.43, 'Angry': 0.0, 'Surprise': 0.29, 'Sad': 0.14, 'Fear': 0.14}
+Oh my gosh! It isn't your fault!!! I have ran over animals as well. It is an unfortunate reality. Do they understand it was an accident? It could be much worse. They could blame you and you would feel even worse. You should feel better with time.
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.2, 'Sad': 0.6, 'Fear': 0.2}
+Oops. Could you sneak it back in without him seeing you? Depends how close you are and how mad he'll be. Usually, I advocate honesty, but don't know enough about your situation to advise. Oh boy. I honestly don't know what to say. Maybe ask him outright if he's cheating. If he is, do you really want to stay with him? If not, it doesn't matter if he knows about the phone or not! Good luck! But be nice - I've confronted people before and totally lost it. I then regretted it.
+{'Happy': 0.22, 'Angry': 0.11, 'Surprise': 0.22, 'Sad': 0.28, 'Fear': 0.17}
+Oh how exciting! Where are you going? You are going to have such a great time and make memories you will cherish the rest of your life You enjoy it a lot of people never travel so be thankful for the experience and soak up everything like a sponge I would agree that you do, enjoy your trip!
+{'Happy': 0.33, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.33, 'Fear': 0.33}
+That is an amazing feeling. I have three daughters. It doesn't matter how many you have, the first time you hold them, its amazing. That's awesome. I would love to have a boy too, but I'm not sure if I want another one or not.  My youngest is 3, and almost completely potty trained, but its been a struggle. Maybe when she starts school, I'll make up my mind. Yes, and that's what we did with her. her sisters were a 8 and 9 when she was born.
+{'Happy': 0.09, 'Angry': 0.0, 'Surprise': 0.45, 'Sad': 0.29, 'Fear': 0.18}
+Really? Which one was it?  Was that in the United States or somewhere else? I used to love All My Children and General Hospital.  Sounds like fun! I wonder if you could find old episodes online now.  Oh, cool! Any names I might know?
+{'Happy': 0.38, 'Angry': 0.12, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.0}
+Must be nice, planning anything exciting? Thats fair, so long as you destress and have a good day it doesn't matter what you do right? But you know, if you have some time off might be a good chance to do cleaning 'round the house too. 'eh, you can never have to much time to get caught up don't you think?
+{'Happy': 0.36, 'Angry': 0.09, 'Surprise': 0.09, 'Sad': 0.18, 'Fear': 0.27}
+That's kind of him! Is he good at that sort of thing? Yes you'd have more warranty kind of things with work from a dealership That's awesome! I wish someone in my family was so handy! Wow! Maybe you should take uncle out for dinner! LOL
+{'Happy': 0.27, 'Angry': 0.0, 'Surprise': 0.45, 'Sad': 0.09, 'Fear': 0.18}
