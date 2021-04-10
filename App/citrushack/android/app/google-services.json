@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398177288742",
+    "project_id": "citrushack-310121",
+    "storage_bucket": "citrushack-310121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398177288742:android:f9dcbfb7469e9352461ce7",
+        "android_client_info": {
+          "package_name": "com.example.citrushack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398177288742-vd2gvavfl26sre777v7evlpdehhpq9ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4s_J4t0ZQWRO9KPdLleCb48Cq4Gfxk04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398177288742-vd2gvavfl26sre777v7evlpdehhpq9ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
