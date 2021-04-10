@@ -1,0 +1,42 @@
+>>> testing()
+sys:1: DtypeWarning: Columns (1,4,8,9) have mixed types.Specify dtype option on import or set low_memory=False.
+['trusting', ["I was so frustrated yesterday. I had to have my mom pick up the kids from school because I had to work late. I'm just glad I can trust her to do that.", 'Yes. I can trust her with anything.', "That's true! I'm sorry about your mother. I am grateful that I have still have mine around.", 'That is true!'], ['It is such a wonderful thing to have a mom who one can depend on.', 'I wish my mom was still alive. Just make sure that you show her how much you appreciate her. Even though you were upset because you had to work look at the bright side.', 'Oh yes mothers make our lives much better and gives us a new meaning in life.', 'And also be thankful that you have a job'], 4]
+{'Happy': 0.3, 'Angry': 0.1, 'Surprise': 0.0, 'Sad': 0.3, 'Fear': 0.3}
+{'Happy': 0.2, 'Angry': 0.0, 'Surprise': 0.2, 'Sad': 0.27, 'Fear': 0.33}
+0.2485960578931211
+['sad', ["I'm kind of sad my little boy is growing up so fast and starting Kindergarten next week.", "Yes and I'll get a break during the day also!", 'Oh most definitely. My daughter also got accepted into Head Start so it will be just me and my work.', 'Yes they are growing up fast!'], ["They do grow up quickly don't they! But just think of all the wonderful new things he'll learn and friends he'll make. He'll be able to tell you all about it when he gets home!", 'That\'s a definite plus. You\'ll be able to have a little "me" time_comma_ which is also important.', "That's great_comma_ on both counts. You must be so proud of them both.", "Ha! I remember when my nephew was born. I visited my sister-in-law at the hospital. He's 21 now!"], 5]
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.12, 'Sad': 0.38, 'Fear': 0.25}
+{'Happy': 0.17, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.42, 'Fear': 0.17}
+0.1769180601295413
+['anxious', ["I don't think my partner's been faithful to me lately. So I just took an HIV test. Waiting for the results has me so worried.", 'Well she seemed really close to another guy at a party we were at last weekend. And I see her get flirty with some other guys around campus too.', "I hope the tests come up negative. I'm probably going to break up with her too.", "That's true. I know that logically. But the fear just wells up in my stomach."], ['I can imagine that would be a painful waiting period. Why do you belive she is unfaithful?', 'I can see the why you would feel that way. I would be worried too.', 'The good news is the chances of actually getting HIV is relatively low. You should not have to worry about it.', 'I can imagine it would. You dont need that stress in your life.'], 5]
+{'Happy': 0.08, 'Angry': 0.0, 'Surprise': 0.31, 'Sad': 0.31, 'Fear': 0.31}
+{'Happy': 0.06, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.31, 'Fear': 0.38}
+0.09433981132056604
+['trusting', ['I went to the store yesterday to see if the bakery had fresh baked glazed doughnuts. ', 'They did! I actually got the last dozen.', 'Exactly what I did! Coffee and doughnuts :)', 'Only with my partner_comma_ he made the coffee lol'], ['I love doughnuts. Did they have them?', 'I envy you_comma_ wish I was there to have some with a cup of coffee', 'Oh yes my favorite. I hope you shared with others.', 'Awesome! I imagined he enjoyed it.'], 5]
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.33, 'Sad': 0.33, 'Fear': 0.33}
+{'Happy': 0.38, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.12}
+0.44866468548349114
+['excited', ["I can't believe that I was 18 when I bought my first car. I remember being in the dealership and they handed me the keys.", 'My dad has his own firm so I worked in the mail room and I also did stock trading on the side.', 'That is what people say but I really worked hard and that car was a reward to myself.', 'That is so true. I can remember the smell of the interior of the car too and how my heart swelled up.'], ["That's crazy_comma_ I couldn't imagine buying a car at 18. What kind of job did you have that you were able to do that?", "That's a pretty great setup so soon in live. You're very fortunate.", 'Yeah for sure. Luck only gets you so far_comma_ the rest is up to you. ', 'You definitley had something to be proud of. Not many 18 year olds can say they did that '], 5]
+{'Happy': 0.0, 'Angry': 0.17, 'Surprise': 0.25, 'Sad': 0.08, 'Fear': 0.5}
+{'Happy': 0.56, 'Angry': 0.0, 'Surprise': 0.11, 'Sad': 0.11, 'Fear': 0.22}
+0.6643794096749237
+['ashamed', ["I tell my mother all of my secrets and I know she wouldn't tell anyone.", 'Yeah_comma_ I know! I have friends that are great but my mom seems to be the one person I can count on.', "Me too. She's a great example.", "Totally. I'm so grateful to have her. "], ["You're lucky to have her! It's hard to find someone to trust. ", "Aw_comma_ I'm sure you tell her. I hope to be that kind of mom when my kids are adults. ", "Aww_comma_ I'm sure that's been nothing but positive for you. ", 'Moms. They are the best. '], 5]
+{'Happy': 0.4, 'Angry': 0.0, 'Surprise': 0.1, 'Sad': 0.3, 'Fear': 0.2}
+{'Happy': 0.3, 'Angry': 0.1, 'Surprise': 0.1, 'Sad': 0.1, 'Fear': 0.4}
+0.31622776601683794
+['apprehensive', ['I recently got serious about working out again and I was so nervous and apprehensive my first day in the gym.', 'It was sort of. But it ended up not being too bad.', "Just come up with something you enjoy and you'll love to go. My  motivation is the 2 free hours of childcare!", 'Oh yes. At least school is starting soon.'], ['I bet.  It can be intimidating to start a new regime.', 'I should start back to working out.  The older I get_comma_ the harder it seems to begin.  Do you have any advice?', 'Lol_comma_ that would be awesome to get some free childcare.  My kids tend to drive me nuts at times.', 'Yes_comma_ thank God that summer is finally over!'], 5]
+{'Happy': 0.4, 'Angry': 0.0, 'Surprise': 0.1, 'Sad': 0.1, 'Fear': 0.4}
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.08, 'Fear': 0.42}
+0.21400934559032697
+['afraid', ["I think I'm getting new neighbors.", "Well_comma_ I know. Some moved in a couch earlier. I just hope they aren't jerks", "Every neighbor I've had in that apartment have been jerks.", '5 years'], ['Why would you think that?', 'Why would you think they are jerks?', 'You must have lived there for a long time.', 'WOW'], 5]
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.5, 'Sad': 0.0, 'Fear': 0.5}
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.5, 'Sad': 0.0, 'Fear': 0.5}
+0.0
+['afraid', ['It was so scary to see my house burn down.', 'It was a combustion of paint cans in my garage.', 'It was no good at al.', "I do thankfully_comma_ but they'll fight us over it."], ["That's awful. How did it catch on fire?", 'That sucks.', 'Do you have home owners insurance?', "I'm sure it will all work out."], 5]
+{'Happy': 0.17, 'Angry': 0.17, 'Surprise': 0.17, 'Sad': 0.33, 'Fear': 0.17}
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.25, 'Fear': 0.75}
+0.6553624951124377
+['proud', ['I brought my very first car after years of saving money', 'A Honda_comma_ it was brand new', 'A lot_comma_ I love it', 'I did it because it was my childhood dream'], ['Well done! What kind of car did you get?', 'Wow. Are you happy with it?', 'I wish I was patient enough to save like that', "I'm impressed. You should be proud of yourself."], 5]
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.5, 'Fear': 0.0}
+{'Happy': 0.8, 'Angry': 0.0, 'Surprise': 0.2, 'Sad': 0.0, 'Fear': 0.0}
+0.744983221287567
