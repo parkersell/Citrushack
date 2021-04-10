@@ -1,42 +1,62 @@
 >>> testing()
 sys:1: DtypeWarning: Columns (1,4,8,9) have mixed types.Specify dtype option on import or set low_memory=False.
-['sentimental', ["Wh didn't anyone explain adulting to me", 'I am tired of paying bills lol', "I don't know  I miss being a kid", 'bring ignorant to responsibility lol'], ["What's your issue?", "That's rough, being an adult has it's perk though!", 'What do you miss most?', 'That is the best to be fair, maybe some day when we grow old we can be ignorant again.'], 4]
-{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.75, 'Fear': 0.0}
-{'Happy': 0.2, 'Angry': 0.0, 'Surprise': 0.2, 'Sad': 0.6, 'Fear': 0.0}
-0.25495097567963926
-['trusting', ["My fiance is having her bachelorette party. I'm excited for her.", 'Its in october!', 'I already had one.  I took a fishing trip with some friends.', 'It was pretty great.  Went inshore one day, then bow fishing in an air boat... then offshore the next day.'], ['That is great!  When is the wedding?', 'Are you having a bachelor party?', 'The best kind of bachelor party.  That is exactly what I did for mine...20 years ago.', 'You should make it an annual trip!  Then you can always be reminded of a good time in your life.'], 5]
-{'Happy': 0.57, 'Angry': 0.0, 'Surprise': 0.14, 'Sad': 0.14, 'Fear': 0.14}
-{'Happy': 0.38, 'Angry': 0.0, 'Surprise': 0.12, 'Sad': 0.38, 'Fear': 0.12}
-0.3074085229787879
-['terrified', ['One night after partying all night I went to a diner and had a bad experience.', 'Omg, I was on my way out and I was followed by someone.', 'He  walked really fast toward me grabbed my purse and demanded my keys.', "Yes. I was so scared in that moment! He didn't even have a weapon."], ['Oh no!  What happened??', 'OMG who was it?  What did they do??', 'AHH!!  Did you call the police?', 'Did he hurt you??'], 5]
-{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.29, 'Sad': 0.43, 'Fear': 0.29}
-{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.5, 'Sad': 0.5, 'Fear': 0.0}
-0.36482872693909396
-['ashamed', ["I can't believe I didn't tell her about the vase.", 'I accidentally smashed it played beyblades.', "Yeah they're fun, I didn't tell my mom after though.", 'She thought my cat did it, I said he did, I lied.'], ['What ahappened to the vase?', 'People still play with those?', 'Who did she blame?', "Well if the cat didn't tell the truth he didn't mind atking the fall."], 5]
-{'Happy': 0.14, 'Angry': 0.14, 'Surprise': 0.29, 'Sad': 0.29, 'Fear': 0.14}
-{'Happy': 0.0, 'Angry': 0.33, 'Surprise': 0.0, 'Sad': 0.33, 'Fear': 0.33}
-0.4213074886588179
-['afraid', ['I have an irrational fear of flying which I faced when I traveled 8 hours on a plane by myself ', 'I was flying from Florida to Italy. I was terrified on the flight, but the destination was worth it.', 'Yeah, it was. It was also my second time flying in general!', 'I was still a little scared, but after take off, I loosened up a little. I watched my favorite series downloaded on my phone and that seemed to distract me well.'], ["Good for you! I'm glad you were able to face it by yourself. Where were you flying?", 'Cool! Was that your first time flying by yourself?', "Wow, that's amazing! Did you enjoy the flight back or were you still scared?", 'Nice what show?'], 4]
-{'Happy': 0.12, 'Angry': 0.12, 'Surprise': 0.12, 'Sad': 0.5, 'Fear': 0.12}
-{'Happy': 0.56, 'Angry': 0.0, 'Surprise': 0.33, 'Sad': 0.11, 'Fear': 0.0}
-0.6469930447848725
-['confident', ['i love the relationship i have with my husband. we have an amazing marriage.', "i've had horrible relationships in the past so it makes me appreciate my husband so much more.", '6 years of amazing ups and wons', 'i sure hope so. i am very blessed.'], ["That's amazing to hear.  There is nothing like a great relationship!", 'Bad ones definatley make the good one a treasure.  Have you been together long?', 'That is a good long time!  I am sure you have many more ahead of you!', "When you appreciate something that much it's sure to continue that way!  I've been married 19 years and love almost every minute!"], 5]
-{'Happy': 0.3, 'Angry': 0.0, 'Surprise': 0.2, 'Sad': 0.2, 'Fear': 0.3}
-{'Happy': 0.38, 'Angry': 0.0, 'Surprise': 0.08, 'Sad': 0.15, 'Fear': 0.38}
-0.1723368793961409
-['faithful', ["It feels great having a girlfriend who puts her trust in you that you wouldn't do anything to hurt her. My current girlfriend, unlike my ex, has no problems with me going out with my friends occasionally.", "It's very refreshing. I'm just happy that we have this trust in one another, I feel it will go a long way to making our relationship strong.", "Quite possibly! She's amazing, to be honest.", 'Her name is Claire.'], ['That must be so nice having that freedom.', 'Do you feel you could see yourself marrying her?', 'What is her name?', 'Lucky you, my girlfriend Elaine is a bit mean sometimes.'], 5]
-{'Happy': 0.21, 'Angry': 0.0, 'Surprise': 0.07, 'Sad': 0.29, 'Fear': 0.43}
-{'Happy': 1.0, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.0, 'Fear': 0.0}
-0.9476286192385707
-['angry', ['Have you ever tried to steam clean an antique rug?', 'Well I figured that out. I cleaned mine last night. They are clean but now they smell horrible!', 'probably not. I wish I would have just left them dirty. I have them airing out outside now.', 'LOL, yeah! so true.'], ['I have not, I feel like it should be done by a professional. ', 'Oh no! Probably tons of years of dirt caked into the rug. Did you use the right cleaner?', 'Maybe the dirt adds to the whole antique feel of them. ', 'I hope you can find a solution that works for you!'], 5]
-{'Happy': 0.0, 'Angry': 0.29, 'Surprise': 0.14, 'Sad': 0.0, 'Fear': 0.57}
-{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.14, 'Fear': 0.86}
-0.45541190146942806
-['faithful', ["I'm so afraid about my sister's illness. What will we do?", 'Left what?', 'Oh. No, nobody yet.', 'but it seems so yummy!'], ['That is gross. Did you find out who left it there?', 'The old tuna sandwich.', 'Well hopefully you threw it out.', 'Maybe it tasted good as well.'], 3]
-{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.5, 'Fear': 0.5}
-{'Happy': 0.67, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.33, 'Fear': 0.0}
-0.8531119504496465
-['confident', ['You know, I really feel great about taking my certification boards.', 'Getting my certificate to be a Physician Assistant. ', "That's awesome. I think boards are easy if you remember that they are always testing you on a simple concept, so any answer that seems like you'd have to overthink it is wrong.", 'I know, right!? Congratulations on your exam, as well.'], ['What is it for?', "That's pretty cool. I am a Pharmacy Tech", 'That is so true. That certification was really easy. I was nervous for no reason', 'You will do great!'], 5]
-{'Happy': 0.11, 'Angry': 0.0, 'Surprise': 0.44, 'Sad': 0.22, 'Fear': 0.22}
-{'Happy': 0.5, 'Angry': 0.0, 'Surprise': 0.17, 'Sad': 0.17, 'Fear': 0.17}
-0.47958315233127197
+['anticipating', ['When my wife and I got married, we knew we wanted to have kids.  When we found out that we were expecting, the only thing on our mind for the longest time was if we were having a boy or a girl.', 'We did! We were living in Japan at the time, and we were paying this clinic 2000 yen a week so we could keep getting ultrasounds of the baby.', 'At the time, the exchange rate was about 110 yen to the dollar, so it was pretty affordable, and worth it to keep going back.', "I wouldn't be able to tell you, since I wasn't under their healthcare system.  This was just a women's clinic that offered this service pretty cheaply."], ['What exciting news! Did you find out ahead of time what the gender of the baby was?', 'What is 2000 yen equal to in U.S. currency?', 'It sure sounds like it. I think healthcare in Japan is much more affordable that here in America, do you agree?', "Oh, okay, well I watched a documentary about healthcare in other countries. I understand that doesn't apply here."], 4]
+When my wife and I got married, we knew we wanted to have kids.  When we found out that we were expecting, the only thing on our mind for the longest time was if we were having a boy or a girl. We did! We were living in Japan at the time, and we were paying this clinic 2000 yen a week so we could keep getting ultrasounds of the baby. At the time, the exchange rate was about 110 yen to the dollar, so it was pretty affordable, and worth it to keep going back. I wouldn't be able to tell you, since I wasn't under their healthcare system.  This was just a women's clinic that offered this service pretty cheaply.
+What exciting news! Did you find out ahead of time what the gender of the baby was? What is 2000 yen equal to in U.S. currency? It sure sounds like it. I think healthcare in Japan is much more affordable that here in America, do you agree? Oh, okay, well I watched a documentary about healthcare in other countries. I understand that doesn't apply here.
+{'Happy': 0.27, 'Angry': 0.0, 'Surprise': 0.2, 'Sad': 0.07, 'Fear': 0.47}
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.4, 'Sad': 0.2, 'Fear': 0.4}
+0.3670149860700514
+['confident', ['I just lost some weight so I ordered a bunch of dresses online', "I think I'll be able to fit them all too.", 'I am', 'Size 7'], ["Thats great!  It's awesome you are doing things for yourself.", 'That really is good news you should be feeling proud.', 'So whats next.. for your goals?', 'Oooh you will probably get there in no time.'], 5]
+I just lost some weight so I ordered a bunch of dresses online I think I'll be able to fit them all too. I am Size 7
+Thats great!  It's awesome you are doing things for yourself. That really is good news you should be feeling proud. So whats next.. for your goals? Oooh you will probably get there in no time.
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.5, 'Fear': 0.0}
+{'Happy': 0.43, 'Angry': 0.0, 'Surprise': 0.43, 'Sad': 0.0, 'Fear': 0.14}
+0.5782732917920383
+['grateful', ["I've been doing great in school so far.", 'Three years. I had a rough start trying to work and study.', "I wish. I've been passing all of my classes though so. One step at a time.", 'Criminology'], ['How long have you been in school?', "That's so great to hear. Are you going to graduate with honors?", 'What are you going to school for?', 'Do you want to be a lawyer or joing the police?'], 4]
+I've been doing great in school so far. Three years. I had a rough start trying to work and study. I wish. I've been passing all of my classes though so. One step at a time. Criminology
+How long have you been in school? That's so great to hear. Are you going to graduate with honors? What are you going to school for? Do you want to be a lawyer or joing the police?
+{'Happy': 0.17, 'Angry': 0.0, 'Surprise': 0.17, 'Sad': 0.33, 'Fear': 0.33}
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.0, 'Fear': 0.75}
+0.5662155066756827
+['anxious', ['I just love halloween. This is going to be the best one yet.', 'I I do themes with me and my kids. We were all comic book villains last year', 'Im thinking fast food. Burgers, fries, milkshake lol', 'Some parts.'], ['You sound excited? do you do it up big?', 'What are you going to do this year?', "That's an interesting theme.  Are you going to make the costumes your self?", 'That sounds like lots of fun!  '], 5]
+I just love halloween. This is going to be the best one yet. I I do themes with me and my kids. We were all comic book villains last year Im thinking fast food. Burgers, fries, milkshake lol Some parts.
+You sound excited? do you do it up big? What are you going to do this year? That's an interesting theme.  Are you going to make the costumes your self? That sounds like lots of fun!
+{'Happy': 0.4, 'Angry': 0.0, 'Surprise': 0.4, 'Sad': 0.0, 'Fear': 0.2}
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.38, 'Fear': 0.38}
+0.5994163828258284
+['annoyed', ['i was studing for a test yesterday and really trying to concentrate', 'yea , but my girlfriend was beside be and she was flicking her fingers and nails up and down over and over against the wooden table we were at.  can you imagine this when I need perfect silence for studying', 'Exactly but i acrd the test ant way . but i can still hear those finger nails click, click, click , click', "I was and i passed the test and I'm looking for a new girlfriend"], ['How did that go? Studying is very important in order to do good. ', 'How annoying that could be. She could have alittle more respect for you. ', 'How frustrating! I hope you were able to study just a little though.  ', 'Im sorry man! stay optimistic! dont be sad about it. '], 5]
+i was studing for a test yesterday and really trying to concentrate yea , but my girlfriend was beside be and she was flicking her fingers and nails up and down over and over against the wooden table we were at.  can you imagine this when I need perfect silence for studying Exactly but i acrd the test ant way . but i can still hear those finger nails click, click, click , click I was and i passed the test and I'm looking for a new girlfriend
+How did that go? Studying is very important in order to do good.  How annoying that could be. She could have alittle more respect for you.  How frustrating! I hope you were able to study just a little though.   Im sorry man! stay optimistic! dont be sad about it.
+{'Happy': 0.0, 'Angry': 0.14, 'Surprise': 0.43, 'Sad': 0.14, 'Fear': 0.29}
+{'Happy': 0.3, 'Angry': 0.2, 'Surprise': 0.0, 'Sad': 0.4, 'Fear': 0.1}
+0.6182232606429493
+['lonely', ['I miss living in the city.', 'Not really. Further outside of the city though. The neighborhood was getting rough.', 'Plus I have kids', 'I think you mean safe'], ['Did you move to the country?', 'Well you have to be safe', 'Then you definitely have to be dafe', 'Of course lol'], 5]
+I miss living in the city. Not really. Further outside of the city though. The neighborhood was getting rough. Plus I have kids I think you mean safe
+Did you move to the country? Well you have to be safe Then you definitely have to be dafe Of course lol
+{'Happy': 0.17, 'Angry': 0.0, 'Surprise': 0.33, 'Sad': 0.5, 'Fear': 0.0}
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.0, 'Sad': 0.0, 'Fear': 1.0}
+1.1780492349643117
+['ashamed', ["I tell my mother all of my secrets and I know she wouldn't tell anyone.", 'Yeah, I know! I have friends that are great but my mom seems to be the one person I can count on.', "Me too. She's a great example.", "Totally. I'm so grateful to have her. "], ["You're lucky to have her! It's hard to find someone to trust. ", "Aw, I'm sure you tell her. I hope to be that kind of mom when my kids are adults. ", "Aww, I'm sure that's been nothing but positive for you. ", 'Moms. They are the best. '], 5]
+I tell my mother all of my secrets and I know she wouldn't tell anyone. Yeah, I know! I have friends that are great but my mom seems to be the one person I can count on. Me too. She's a great example. Totally. I'm so grateful to have her.
+You're lucky to have her! It's hard to find someone to trust.  Aw, I'm sure you tell her. I hope to be that kind of mom when my kids are adults.  Aww, I'm sure that's been nothing but positive for you.  Moms. They are the best.
+{'Happy': 0.4, 'Angry': 0.0, 'Surprise': 0.1, 'Sad': 0.3, 'Fear': 0.2}
+{'Happy': 0.3, 'Angry': 0.1, 'Surprise': 0.1, 'Sad': 0.1, 'Fear': 0.4}
+0.31622776601683794
+['faithful', ['my friend told me a secret', 'yes, i did keep it. im holding it for a couple more days.', 'lol, its one of the them ', 'lol.. i will this weekend. i never hold secrets. im doing a great job'], ['Was it a good one? Did you keep it?', 'Is someone getting married, or a baby?', "Well tell them I said Congrats on whatever it is. As long as it's not a baby marriage.", 'Keep it secret, Keep it safe....'], 5]
+my friend told me a secret yes, i did keep it. im holding it for a couple more days. lol, its one of the them  lol.. i will this weekend. i never hold secrets. im doing a great job
+Was it a good one? Did you keep it? Is someone getting married, or a baby? Well tell them I said Congrats on whatever it is. As long as it's not a baby marriage. Keep it secret, Keep it safe....
+{'Happy': 0.38, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.12}
+{'Happy': 0.2, 'Angry': 0.0, 'Surprise': 0.4, 'Sad': 0.2, 'Fear': 0.2}
+0.2525866188063018
+['jealous', ['My friend got a huge scholarship when he barely passed the PSAT.', 'Its mainly an English based test and hes really good at english', 'Yea he was about 1 point above the cutoff, I was quite jealous of him to be honest, I barely didnt make it sadly.', 'OU, he ended up dropping out to pursue writing about a year and a half in and wasted the scholarship.'], ['How did  he manage to do that?', 'I mean you said he barely passed it though. Must have been slim pickings when it came to giving out the sholarships.', 'What college did he end up going to?', 'Ah, yes, the lucrative writing career.'], 4]
+My friend got a huge scholarship when he barely passed the PSAT. Its mainly an English based test and hes really good at english Yea he was about 1 point above the cutoff, I was quite jealous of him to be honest, I barely didnt make it sadly. OU, he ended up dropping out to pursue writing about a year and a half in and wasted the scholarship.
+How did  he manage to do that? I mean you said he barely passed it though. Must have been slim pickings when it came to giving out the sholarships. What college did he end up going to? Ah, yes, the lucrative writing career.
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.25}
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.22, 'Sad': 0.33, 'Fear': 0.44}
+0.3254228019054596
+['proud', ['I won first place in a chili cooking competition at work today.', 'A $50  gift card and bragging rights.', 'About 15.', "I'll probably give it a try. They do little events like this a few times a year."], ['Did you get a nice prize for it?', "That's amazing, how many people entered?", 'Huge win, do you plan on entering again next year?', "Maybe if there's a hot dog one I can enter it too."], 5]
+I won first place in a chili cooking competition at work today. A $50  gift card and bragging rights. About 15. I'll probably give it a try. They do little events like this a few times a year.
+Did you get a nice prize for it? That's amazing, how many people entered? Huge win, do you plan on entering again next year? Maybe if there's a hot dog one I can enter it too.
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.17, 'Sad': 0.0, 'Fear': 0.83}
+{'Happy': 0.25, 'Angry': 0.0, 'Surprise': 0.25, 'Sad': 0.25, 'Fear': 0.25}
+0.6839590631024638

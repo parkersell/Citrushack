@@ -39,6 +39,8 @@ def testing():
     conversations = getConversations()
     for conversation in conversations:
         print(conversation)
-        person1 = ", ".join(conversation[1])
-        person2 = ", ".join(conversation[2])
+        person1 = " ".join(conversation[1])
+        person2 = " ".join(conversation[2])
+        print(person1)
+        print(person2)
         print(empathy(person1, person2))
