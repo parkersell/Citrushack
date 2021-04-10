@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:citrushack/services/authFB.dart';
 import 'package:citrushack/services/db.dart';
+import 'package:citrushack/services/functions.dart';
 
 class Home extends StatelessWidget {
   String string1 = '';
   String string2 = '';
   final AuthService _auth = AuthService();
+  final CloudFunction cloud = CloudFunction();
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -55,6 +57,7 @@ class Home extends StatelessWidget {
                     print(string1);
                     print(string2);
                     AuthService().setData(string1,string2);
+                    cloud.getEmpathy();
                   },
                 ),
               ]
