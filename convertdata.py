@@ -57,6 +57,6 @@ def testing(s, e):
     return values
 
 
-v = testing(0, 10)
+v = testing(2001, 3000)
 
-np.save("first 100.npy", v)
+np.save("2000s.npy", v)
