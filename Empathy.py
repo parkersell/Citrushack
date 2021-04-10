@@ -1,9 +1,14 @@
 import text2emotion as te
 import pandas as pd
+from textblob import TextBlob
+from textblob.sentiments import NaiveBayesAnalyzer
 
 def empathy(prompt, response):
     print(te.get_emotion(prompt))
     print(te.get_emotion(response))
+
+    print(TextBlob(prompt, analyzer=NaiveBayesAnalyzer()).sentiment)
+    print(TextBlob(response, analyzer=NaiveBayesAnalyzer()).sentiment)
 
     # Gets just the emotion values for each statement.
     promptEmotions = te.get_emotion(prompt).values()
@@ -39,8 +44,6 @@ def testing():
     conversations = getConversations()
     for conversation in conversations:
         print(conversation)
-        person1 = " ".join(conversation[1])
-        person2 = " ".join(conversation[2])
-        print(person1)
-        print(person2)
+        person1 = " ".join(conversation[1]) * 10
+        person2 = " ".join(conversation[2]) * 10
         print(empathy(person1, person2))
