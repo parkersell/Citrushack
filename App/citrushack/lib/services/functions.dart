@@ -5,24 +5,36 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 
 class CloudFunction{
-
-  Future<void> getEmpathy(String arg, String arg2) async {
+  Map<String, dynamic> map;
+  Future<Map<String, dynamic>> getEmpathy(String arg, String arg2,String happyValue, String angryValue, String surpriseValue, String sadValue, String fearValue) async {
+    int empathy = 0;
     try{
       final results = await FirebaseFunctions.instance.httpsCallable('function-3'
       ).call(<String, dynamic>{
         "prompt":arg,
-        "response":arg2});
+        "response":arg2,
+        "Happy":happyValue,
+        "Angry":angryValue,
+        "Surprise":surpriseValue,
+        "Sad":sadValue,
+        "Fear":fearValue,
+      });
 
+      //double empathy =  results.data;
+      //List<dynamic> empathy = results.data;
+      //print(empathy);
 
-      //empathy = results.data;
-
-      print(new Map<String, dynamic>.from(results.data));
+      map = new Map<String, dynamic>.from(results.data);
+      empathy = map['score'];
+      print(map);
+      return map;
     }catch(error){
       print(error.toString());
     }
+    return map;
   }
 
-/*
+
   final String arg,arg1;
   CloudFunction({this.arg,this.arg1});
   //FirebaseFunctions functions = FirebaseFunctions.instance;
@@ -48,5 +60,5 @@ class CloudFunction{
     // If the widget was removed from the tree while the message was in flight,
     // we want to discard the reply rather than calling setState to update our
     // non-existent appearance.
-  }*/
+  }
 }
