@@ -1,0 +1,15 @@
+## Inspiration
+-Several of our group members come off as the "heartless" friend in their friend groups, the one who says what they think and forgets to take into account the feelings of others. We recognize that this is a problem but sometimes forget or struggle to see the problem with the things we say.
+## What it does
+-EmPath seeks to remedy this problem by giving the user a concrete analysis of how their message relates to the emotional context of the conversation and how empathetic the message is. With this knowledge, a user can be better informed about how their message might affect the other people in the conversation.
+## How we built it
+-EmPath uses an Android app interface that connects to a Firebase database and runs Python code on Google Cloud.
+-To analyze text the user inputs, we used the natural language processing library text2emotion and [MACHINE LEARNING ALGORITHM DESCRIPTION HERE] to relate emotion data to empathy.
+## Challenges we ran into
+-Empathy is a quantity that is hard to measure or calculate, especially for us non-psychologists. Our initial attempts to convert emotion scores into empathy scores didn't provide meaningful outputs, leading to the machine learning approach.
+-Our data set of sample conversations scored almost all of the data as a 4 or 5 out of 5 on an empathy scale, which made it hard to get a meaningful distribution.
+## Accomplishments that we're proud of
+
+## What we learned
+
+## What's next for EmPath
