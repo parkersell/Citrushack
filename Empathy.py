@@ -17,8 +17,8 @@ def empathy(prompt, response):
     score = 5 - ((sum(pow(float(a)-float(b), 2)
                  for a, b in zip(promptEmotions, responseEmotions)) * 8) ** (1/2))
 
-    # subtracts one from score if word length is less than 7
-    if len(response.split(" ")) < 7:
+    # subtracts one from score if word length is less than 10.
+    if len(response.split(" ")) < 10:
         if score >= 2:
             score -= 2
         elif score < 2:
