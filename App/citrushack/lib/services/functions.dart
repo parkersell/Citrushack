@@ -6,10 +6,13 @@ import 'package:flutter/material.dart';
 
 class CloudFunction{
 
-  Future<void> getEmpathy() async {
+  Future<void> getEmpathy(String arg, String arg2) async {
     try{
-      HttpsCallable callable = FirebaseFunctions.instance.httpsCallable('function-2');
-      final results = await callable();
+
+      final results = await FirebaseFunctions.instance.httpsCallable('function-2'
+      ).call(<String, dynamic>{
+        "Prompt":arg,
+        "Response":arg2},);
       int empathy = results.data;
       print(empathy);
     }catch(error){

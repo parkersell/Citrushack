@@ -1,7 +1,7 @@
 import 'package:citrushack/services/db.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:citrushack/models/user.dart';
-
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class AuthService{
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -61,6 +61,19 @@ class AuthService{
       final uidA = userA.uid;
 
       await DbService(uid: uidA).updateUser(string1, string2);
+      return userFirebase(userA);
+    } catch (error) {
+      print(error.toString());
+      return null;
+    }
+  }
+
+  Future getData() async {
+    try {
+      final User userA = _auth.currentUser;
+      final uidA = userA.uid;
+      final CollectionReference data = FirebaseFirestore.instance.collection('data');
+      //data.doc(uidA).collection('Entries').limit(1),
       return userFirebase(userA);
     } catch (error) {
       print(error.toString());
