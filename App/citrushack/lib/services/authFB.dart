@@ -55,12 +55,12 @@ class AuthService{
     }
   }
 
-  Future setData(String string1, String string2) async {
+  Future setData(String string1, String string2, String happyValue, String angryValue, String surpriseValue, String sadValue, String fearValue) async {
     try {
       final User userA = _auth.currentUser;
       final uidA = userA.uid;
 
-      await DbService(uid: uidA).updateUser(string1, string2);
+      await DbService(uid: uidA).updateUser(string1, string2,happyValue, angryValue, surpriseValue, sadValue,fearValue);
       return userFirebase(userA);
     } catch (error) {
       print(error.toString());

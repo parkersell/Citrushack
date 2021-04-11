@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
         routes: {
           '/': (context) => Wrapper(),
           '/second': (context) => SecondRoute(),
+          '/third': (context) => ThirdRoute(),
         },
       ),
     );
