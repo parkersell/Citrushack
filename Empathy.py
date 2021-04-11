@@ -35,7 +35,11 @@ def empathy(prompt, response):
 
     # subtracts one from score if word length is less than 10.
     print(len(response.split(" ")))
-    if len(response.split(" ")) < 10:
+    if len(response.split(" ")) < 6:
+        score = minus(score, 3)
+    elif len(response.split(" ")) < 8:
+        score = minus(score, 2)
+    elif len(response.split(" ")) < 10:
         score = minus(score, 1)
 
     if len(response.split(" ")) > 15:
@@ -50,7 +54,7 @@ def empathy(prompt, response):
         print("Wouldn't recommend using the word but, since it sounds like you aren't listening.")
         score = minus(score, .5)
 
-    return score
+    return round(score)
 
 def getConversations(n):
     train = pd.read_csv("train.csv")
