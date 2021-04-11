@@ -4,19 +4,17 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 
-
 class CloudFunction{
 
   Future<void> getEmpathy() async {
     try{
       HttpsCallable callable = FirebaseFunctions.instance.httpsCallable('function-2');
       final results = await callable();
-      List empathy = results.data;
+      int empathy = results.data;
       print(empathy);
     }catch(error){
       print(error.toString());
     }
-
   }
 
 /*
