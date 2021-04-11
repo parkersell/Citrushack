@@ -10,12 +10,13 @@ class CloudFunction{
     try{
       final results = await FirebaseFunctions.instance.httpsCallable('function-3'
       ).call(<String, dynamic>{
-        "Prompt":arg,
-        "Response":arg2});
+        "prompt":arg,
+        "response":arg2});
 
-      String empathy = results.data;
 
-      print(empathy);
+      //empathy = results.data;
+
+      print(new Map<String, dynamic>.from(results.data));
     }catch(error){
       print(error.toString());
     }
