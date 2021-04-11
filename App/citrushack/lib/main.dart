@@ -4,6 +4,7 @@ import 'package:citrushack/screens/wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import'package:citrushack/models/user.dart';
+import 'package:citrushack/screens/home/home.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +19,11 @@ class MyApp extends StatelessWidget {
     return StreamProvider<AUser>.value(
       value: AuthService().user,
       child:MaterialApp(
-        home : Wrapper(),
+
+        routes: {
+          '/': (context) => Wrapper(),
+          '/second': (context) => SecondRoute(),
+        },
       ),
     );
   }
