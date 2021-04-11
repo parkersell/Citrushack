@@ -68,6 +68,7 @@ class Home extends StatelessWidget {
                 RaisedButton(
                   child: Text('View History'),
                   onPressed: () {
+                    AuthService().getData();
                     Navigator.pushNamed(context, '/second');
                   },
                 ),
