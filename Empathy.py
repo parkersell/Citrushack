@@ -3,6 +3,12 @@ import pandas as pd
 from textblob import TextBlob
 from textblob.sentiments import NaiveBayesAnalyzer
 
+def minus(score, x):
+    if score >= 1 + x:
+        score -= x
+    elif score < x:
+        score = 1
+    return score
 
 def empathy(prompt, response):
     # print(te.get_emotion(prompt))
@@ -12,19 +18,28 @@ def empathy(prompt, response):
     #print(TextBlob(response, analyzer=NaiveBayesAnalyzer()).sentiment)
 
     # Gets just the emotion values for each statement.
-    promptEmotions = te.get_emotion(prompt).values()
+    promptEmotions = list(te.get_emotion(prompt).values())
     print(prompt)
-    responseEmotions = te.get_emotion(response).values()
+    responseEmotions = list(te.get_emotion(response).values())
+
+    # Calculates the distance between the emotion vectors.
     score = 5 - ((sum(pow(float(a)-float(b), 2)
                  for a, b in zip(promptEmotions, responseEmotions)) * 8) ** (1/2))
 
     # subtracts one from score if word length is less than 10.
+    print(len(response.split(" ")))
     if len(response.split(" ")) < 10:
-        if score >= 2:
-            score -= 2
-        elif score < 2:
-            score = 2
-    # Calculates the distance between the emotion vectors.
+        score = minus(score, 1)
+
+    if promptEmotions[1] > .5:
+        if responseEmotions[1] > .5:
+            print("Your response is too angry")
+            score = minus(score, 1)
+
+    if "but" in response:
+        print("Wouldn't recommend using the word but, since it sounds like you aren't listening.")
+        score = minus(score, .5)
+
     return score
 
 
