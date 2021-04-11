@@ -13,6 +13,7 @@ def empathy(prompt, response):
 
     # Gets just the emotion values for each statement.
     promptEmotions = te.get_emotion(prompt).values()
+    print(prompt)
     responseEmotions = te.get_emotion(response).values()
     score = 5 - ((sum(pow(float(a)-float(b), 2)
                  for a, b in zip(promptEmotions, responseEmotions)) * 8) ** (1/2))
@@ -65,13 +66,17 @@ def testing(csv):
     error = 0
     count = 1
     for conversation in conversations:
-        person1 = "".join(conversation[1])
-        person2 = "".join(conversation[2])
+        seedEmotions = list(map(float, conversation[0:5]))
+        total = sum(seedEmotions)
+        for i in range(0, len(seedEmotions)):
+            seedEmotions[i] = seedEmotions[i] / total
+        person1 = "".join(conversation[5])
+        person2 = "".join(conversation[6])
         # print(person2)
         escore = empathy(person1, person2)
 
-        temp = conversation[3] - escore
-        print(count, escore, conversation[3])
+        temp = conversation[7] - escore
+        print(count, escore, conversation[7])
         count += 1
         error += abs(temp)
     print(error / len(conversations))
