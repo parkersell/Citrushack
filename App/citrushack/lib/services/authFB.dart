@@ -69,16 +69,24 @@ class AuthService{
   }
 
   Future getData() async {
+    /*
     try {
       final User userA = _auth.currentUser;
       final uidA = userA.uid;
       final CollectionReference data = FirebaseFirestore.instance.collection('data');
-      //data.doc(uidA).collection('Entries').limit(1),
+      final DocumentReference dat = data.doc(uidA);
+
+      var name = snapshot['input'];
+      print()
+      //Stream<QuerySnapshot> snapshot = data.doc(uidA).collection('Entries').snapshots();
+      print(snapshot);
       return userFirebase(userA);
     } catch (error) {
       print(error.toString());
       return null;
     }
+
+     */
   }
 
 }

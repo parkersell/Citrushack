@@ -8,13 +8,15 @@ class CloudFunction{
 
   Future<void> getEmpathy(String arg, String arg2) async {
     try{
-
-      final results = await FirebaseFunctions.instance.httpsCallable('function-2'
+      final results = await FirebaseFunctions.instance.httpsCallable('function-3'
       ).call(<String, dynamic>{
-        "Prompt":arg,
-        "Response":arg2},);
-      int empathy = results.data;
-      print(empathy);
+        "prompt":arg,
+        "response":arg2});
+
+
+      //empathy = results.data;
+
+      print(new Map<String, dynamic>.from(results.data));
     }catch(error){
       print(error.toString());
     }

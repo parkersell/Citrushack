@@ -15,6 +15,10 @@ class DbService{
       'response': response,
     });
   }
-
+/*
+  Stream<QuerySnapshot> get Users{
+    return empathyData.snapshots();
+  }
+  */
 }
 
