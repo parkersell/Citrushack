@@ -10,6 +10,13 @@ def minus(score, x):
         score = 1
     return score
 
+def add(score, x):
+    if score + x <= 5:
+        score += x
+    else:
+        score = 5
+    return score
+
 def empathy(prompt, response):
     # print(te.get_emotion(prompt))
     # print(te.get_emotion(response))
@@ -31,6 +38,9 @@ def empathy(prompt, response):
     if len(response.split(" ")) < 10:
         score = minus(score, 1)
 
+    if len(response.split(" ")) > 15:
+        score = add(score, 1)
+
     if promptEmotions[1] > .5:
         if responseEmotions[1] > .5:
             print("Your response is too angry")
@@ -41,7 +51,6 @@ def empathy(prompt, response):
         score = minus(score, .5)
 
     return score
-
 
 def getConversations(n):
     train = pd.read_csv("train.csv")
