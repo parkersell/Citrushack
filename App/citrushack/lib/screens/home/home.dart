@@ -5,8 +5,8 @@ import 'package:citrushack/services/functions.dart';
 import 'package:flutter/services.dart';
 String string1 = '';
 String string2 = '';
-int result;
-String advice;
+int result=0;
+String advice=' ';
 final AuthService _auth = AuthService();
 final CloudFunction cloud = CloudFunction();
 class Home extends StatelessWidget {
@@ -58,9 +58,6 @@ class Home extends StatelessWidget {
                 AuthService().getData();
                 Navigator.pushNamed(context, '/second');
               },
-            ),
-            Padding(
-              padding: EdgeInsets.only(top: 55),
             ),
           ]),
         ),
@@ -160,13 +157,14 @@ class SecondRoute extends StatelessWidget {
             onPressed: () {
               print(string1);
               print(string2);
+              result = 0;
               AuthService().setData(string1, string2, happyValue, angryValue, supriseValue, sadValue, fearValue);
               cloud.getEmpathy(string1, string2, happyValue, angryValue, supriseValue, sadValue, fearValue).then((value)=>{
                 result = value['score'],
                 advice = value['advice']
               });
               print(result);
-              Future.delayed(Duration(milliseconds: 7000), () {
+              Future.delayed(Duration(milliseconds: 9000), () {
                 Navigator.pushNamed(context, '/third');
               });
 
@@ -177,9 +175,9 @@ class SecondRoute extends StatelessWidget {
     );
   }
 }
-Future<bool> _getFutureBool() {
-  return Future.delayed(Duration(milliseconds: 4000))
-      .then((onValue) => true);
+void delay() async{
+  while(result == 0){
+  }
 }
 
 class ThirdRoute extends StatelessWidget {
